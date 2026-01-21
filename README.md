@@ -11,6 +11,9 @@
 4. network_cuda是我是同pytorch（而非像作者使用numpy）的修改，以便使用cuda进行GPU训练，但实际效果不尽人意
 5. network_save_use增加了模型的save和load的“方法”
 6. network_use包含了最基础图像处理，用于load训练好的模型和测试的图片，进行手写数字识别
+7. data中是mnist的数据集（来自于源码链接）
+8. model是我训练好的一个模型，可以直接load使用
+9. test_pic是我用来做测试的手写数字照片
 ## 使用方法
 1. 基础用法：训练模型
    main文件第一部分
